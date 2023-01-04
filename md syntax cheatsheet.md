@@ -453,10 +453,11 @@ John-->>-Alice: I feel great!
 ``'
 
 ```mermaid
-graph TD
+graph LR
 Biology --> Chemistry
 ``'
 ```
+note: TD is top down, LR is left right.
 
 > output
 
@@ -469,7 +470,7 @@ John-->>-Alice: I feel great!
 ```
 
 ```mermaid
-graph TD
+graph LR
 Biology --> Chemistry
 ```
 
